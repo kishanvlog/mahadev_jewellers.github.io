@@ -45,13 +45,13 @@
 
       <li class="nav-item active">
 
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 
       </li>
 
       <li class="nav-item">
 
-        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="about.php">About</a>
 
       </li>
 
@@ -62,14 +62,16 @@
         <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" 
         	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
            our Collection    </a>
+		   
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Gold_item</a>
+		
+          <a class="dropdown-item" href=" addcart/addcart.php ">Gold_item</a>
 
-          <a class="dropdown-item" href="#">Diamond_items</a>
+          <a class="dropdown-item" href=" addcart/dcart.php ">Diamond_items</a>
 
           <div class="dropdown-divider"></div>
 
-          <a class="dropdown-item" href="#">Silver_items</a>
+          <a class="dropdown-item" href=" addcart/scart.php ">Silver_items</a>
 
         </div>
 
